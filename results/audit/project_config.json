@@ -1,0 +1,50 @@
+{
+  "project_name": "BUSI Paper Reproduction and Explainable AI",
+  "paper_title": "Breast Lesion Detection Using Weakly Dependent Customized Features and Machine Learning Models with XAI",
+  "paper_doi": "10.3390/jimaging11050135",
+  "created_utc": "2026-10-11T15:39:12.732378+00:00",
+  "master_random_seed": 42,
+  "dataset_directory": "/content/drive/MyDrive/Dataset_BUSI_with_GT",
+  "output_directory": "/content/drive/MyDrive/BUSI_paper_reproduction",
+  "class_directories": {
+    "benign": "B",
+    "malignant": "M",
+    "normal": "N"
+  },
+  "binary_label_mapping": {
+    "malignant": 0,
+    "benign": 1
+  },
+  "image_extensions": [
+    ".bmp",
+    ".jpeg",
+    ".jpg",
+    ".png",
+    ".tif",
+    ".tiff"
+  ],
+  "output_directories": {
+    "root": "/content/drive/MyDrive/BUSI_paper_reproduction",
+    "figures": "/content/drive/MyDrive/BUSI_paper_reproduction/figures",
+    "models": "/content/drive/MyDrive/BUSI_paper_reproduction/models",
+    "csv": "/content/drive/MyDrive/BUSI_paper_reproduction/csv",
+    "author_csvs": "/content/drive/MyDrive/BUSI_paper_reproduction/author_csvs"
+  },
+  "dataset_structure_checks": {
+    "benign": {
+      "directory": "/content/drive/MyDrive/Dataset_BUSI_with_GT/benign",
+      "image_file_count_including_possible_masks": 891,
+      "has_image_files": true
+    },
+    "malignant": {
+      "directory": "/content/drive/MyDrive/Dataset_BUSI_with_GT/malignant",
+      "image_file_count_including_possible_masks": 421,
+      "has_image_files": true
+    },
+    "normal": {
+      "directory": "/content/drive/MyDrive/Dataset_BUSI_with_GT/normal",
+      "image_file_count_including_possible_masks": 266,
+      "has_image_files": true
+    }
+  }
+}
