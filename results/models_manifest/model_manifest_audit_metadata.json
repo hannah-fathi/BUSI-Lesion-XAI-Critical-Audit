@@ -1,0 +1,13 @@
+{
+  "manifest_source": "/content/drive/MyDrive/BUSI_paper_reproduction/csv/model_manifest.csv",
+  "manifest_format": "csv",
+  "manifest_rows_loaded": 12,
+  "experiment_column_found": "experiment",
+  "model_column_found": "model",
+  "artifact_path_column_found": "artifact_path",
+  "hash_column_found": "artifact_sha256",
+  "integrity_column_found": "artifact_integrity_verified",
+  "roundtrip_column_found": "roundtrip_verified",
+  "roundtrip_status_column_found": "roundtrip_status",
+  "interpretation": "Artifact presence, checksum verification, and serialization round-trip verification are reported as separate checks."
+}

@@ -1,0 +1,192 @@
+{
+  "manifest_version": "1.1",
+  "created_at_utc": "2026-10-11T15:54:46.700293+00:00",
+  "repository": {
+    "owner": "simonamoldovanu",
+    "name": "features_breast",
+    "branch": "main"
+  },
+  "github_commit": {
+    "resolution_status": "success",
+    "api_url": "https://api.github.com/repos/simonamoldovanu/features_breast/commits/main",
+    "http_status_code": 200,
+    "response_headers": {
+      "Date": "Sun, 11 Oct 2026 15:54:45 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Cache-Control": "public, max-age=60, s-maxage=60",
+      "ETag": "W/\"12b3df507d638d9bdb44ff83f09cfd24600a0edd2536d766deafb0f6679cd386\"",
+      "Last-Modified": "Wed, 16 Oct 2024 15:42:07 GMT"
+    },
+    "branch": "main",
+    "commit_sha": "0beaa55f92e141b5cb97fbef526d2424d85b9f05",
+    "commit_html_url": "https://github.com/simonamoldovanu/features_breast/commit/0beaa55f92e141b5cb97fbef526d2424d85b9f05",
+    "commit_message": "Add files via upload",
+    "commit_committer_date": "2024-10-16T15:42:07Z",
+    "resolved_at_utc": "2026-10-11T15:54:45.888450+00:00",
+    "resolution_error": null
+  },
+  "sources": {
+    "authors_CH": {
+      "source_name": "authors_CH",
+      "source_url": "https://raw.githubusercontent.com/simonamoldovanu/features_breast/0beaa55f92e141b5cb97fbef526d2424d85b9f05/histogram_features.csv",
+      "branch_source_url": "https://raw.githubusercontent.com/simonamoldovanu/features_breast/main/histogram_features.csv",
+      "source_version_mode": "commit_pinned",
+      "repository_commit_sha": "0beaa55f92e141b5cb97fbef526d2424d85b9f05",
+      "local_path": "/content/drive/MyDrive/BUSI_paper_reproduction/author_csvs/histogram_features.csv",
+      "load_method": "downloaded_and_cached",
+      "cache_status": "written_and_verified",
+      "cache_integrity_status": "sha256_matches_download",
+      "download_error": null,
+      "cache_error": null,
+      "http_status_code": 200,
+      "response_headers": {
+        "Content-Length": "22667",
+        "Cache-Control": "max-age=300",
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"50db2f3cbdf86af236eab2723c525181eba14e7624a00e0733ba44bdce488da4\"",
+        "Date": "Sun, 11 Oct 2026 15:54:46 GMT"
+      },
+      "response_final_url": "https://raw.githubusercontent.com/simonamoldovanu/features_breast/0beaa55f92e141b5cb97fbef526d2424d85b9f05/histogram_features.csv",
+      "retrieved_or_verified_at_utc": "2026-10-11T15:54:46.285770+00:00",
+      "file_size_bytes": 22667,
+      "sha256": "f1c39e292df8574063186513bd9f0d53cd7ee65f34b22abd926e7d1dc219623e",
+      "content_sha256": "f1c39e292df8574063186513bd9f0d53cd7ee65f34b22abd926e7d1dc219623e",
+      "cache_sha256": "f1c39e292df8574063186513bd9f0d53cd7ee65f34b22abd926e7d1dc219623e",
+      "n_rows": 647,
+      "n_columns": 9,
+      "columns": [
+        "clasa",
+        "CH1",
+        "CH2",
+        "CH3",
+        "CH4",
+        "CH5",
+        "CH6",
+        "CH7",
+        "CH8"
+      ],
+      "validation": {
+        "header_status": "read",
+        "raw_header_columns": [
+          "clasa",
+          "CH1",
+          "CH2",
+          "CH3",
+          "CH4",
+          "CH5",
+          "CH6",
+          "CH7",
+          "CH8"
+        ],
+        "raw_duplicate_header_names": [],
+        "header_error": null,
+        "parsed_shape": [
+          647,
+          9
+        ],
+        "parsed_columns": [
+          "clasa",
+          "CH1",
+          "CH2",
+          "CH3",
+          "CH4",
+          "CH5",
+          "CH6",
+          "CH7",
+          "CH8"
+        ],
+        "all_null_row_count": 0,
+        "all_null_columns": [],
+        "possible_exported_index_columns": [],
+        "duplicate_parsed_column_names": false,
+        "duplicate_row_count": 0,
+        "total_missing_cells": 0
+      }
+    },
+    "authors_C": {
+      "source_name": "authors_C",
+      "source_url": "https://raw.githubusercontent.com/simonamoldovanu/features_breast/0beaa55f92e141b5cb97fbef526d2424d85b9f05/density_features.csv",
+      "branch_source_url": "https://raw.githubusercontent.com/simonamoldovanu/features_breast/main/density_features.csv",
+      "source_version_mode": "commit_pinned",
+      "repository_commit_sha": "0beaa55f92e141b5cb97fbef526d2424d85b9f05",
+      "local_path": "/content/drive/MyDrive/BUSI_paper_reproduction/author_csvs/density_features.csv",
+      "load_method": "downloaded_and_cached",
+      "cache_status": "written_and_verified",
+      "cache_integrity_status": "sha256_matches_download",
+      "download_error": null,
+      "cache_error": null,
+      "http_status_code": 200,
+      "response_headers": {
+        "Content-Length": "22659",
+        "Cache-Control": "max-age=300",
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"fdb0afc7e526284b402d6510e609f02554ee9fb4f7d2edb87602864a791063ac\"",
+        "Date": "Sun, 11 Oct 2026 15:54:46 GMT"
+      },
+      "response_final_url": "https://raw.githubusercontent.com/simonamoldovanu/features_breast/0beaa55f92e141b5cb97fbef526d2424d85b9f05/density_features.csv",
+      "retrieved_or_verified_at_utc": "2026-10-11T15:54:46.685499+00:00",
+      "file_size_bytes": 22659,
+      "sha256": "26ee9862d6e966d596151e5d57273b92e9f0d08567b2f6e3c4ca2157970c684b",
+      "content_sha256": "26ee9862d6e966d596151e5d57273b92e9f0d08567b2f6e3c4ca2157970c684b",
+      "cache_sha256": "26ee9862d6e966d596151e5d57273b92e9f0d08567b2f6e3c4ca2157970c684b",
+      "n_rows": 647,
+      "n_columns": 9,
+      "columns": [
+        "clasa",
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c7",
+        "c8"
+      ],
+      "validation": {
+        "header_status": "read",
+        "raw_header_columns": [
+          "clasa",
+          "c1",
+          "c2",
+          "c3",
+          "c4",
+          "c5",
+          "c6",
+          "c7",
+          "c8"
+        ],
+        "raw_duplicate_header_names": [],
+        "header_error": null,
+        "parsed_shape": [
+          647,
+          9
+        ],
+        "parsed_columns": [
+          "clasa",
+          "c1",
+          "c2",
+          "c3",
+          "c4",
+          "c5",
+          "c6",
+          "c7",
+          "c8"
+        ],
+        "all_null_row_count": 0,
+        "all_null_columns": [],
+        "possible_exported_index_columns": [],
+        "duplicate_parsed_column_names": false,
+        "duplicate_row_count": 0,
+        "total_missing_cells": 0
+      }
+    }
+  },
+  "methodological_notes": [
+    "SHA-256 identifies the exact byte content that was loaded.",
+    "Commit-pinned URLs are preferred when GitHub commit resolution succeeds.",
+    "If commit resolution fails, branch-based URLs are used and the limitation is recorded.",
+    "The CSV source bytes are cached without reserialization.",
+    "The in-memory pandas DataFrames are used for inspection and are not substituted for the original source files.",
+    "Cross-table feature-vector consistency and label alignment must be assessed separately in Cell 8."
+  ]
+}
