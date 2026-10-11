@@ -283,8 +283,8 @@ Cells with a **B** are audit or sensitivity cells added so that every claim has 
 ## Getting started
 
 ```bash
-git clone https://github.com/<your-username>/BUSI-Independent-XAI-Study.git
-cd BUSI-Independent-XAI-Study
+git clone https://github.com/hannah-fathi/BUSI-Lesion-XAI-Critical-Audit.git
+cd BUSI-Lesion-XAI-Critical-Audit
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
