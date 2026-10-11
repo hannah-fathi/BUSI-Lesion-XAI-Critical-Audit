@@ -1,0 +1,31 @@
+{
+  "created_at_utc": "2026-10-11T16:02:56.950243+00:00",
+  "output_dir": "/content/drive/MyDrive/BUSI_paper_reproduction",
+  "model_dir": "/content/drive/MyDrive/BUSI_paper_reproduction/models",
+  "models_fitted_in_registry": 12,
+  "models_serialized_or_recorded": 12,
+  "models_integrity_verified": 12,
+  "models_roundtrip_verified": 12,
+  "models_roundtrip_failed": 0,
+  "models_roundtrip_not_tested": 0,
+  "models_saved_and_roundtrip_verified": 12,
+  "serialization_or_metadata_errors": 0,
+  "experiment_model_counts": {
+    "own_CH_raw": 4,
+    "own_C_ratio": 4,
+    "own_CV_extended": 4
+  },
+  "author_csv_gate_status": "blocked_or_unresolved",
+  "independent_feature_identity_audit": {
+    "available": true,
+    "source": "own_df",
+    "n_rows_audited": 647,
+    "algebraic_checks_passed": true,
+    "interpretation": "Algebraic consistency of the independent feature table only; not proof of author-CSV feature correspondence."
+  },
+  "model_manifest_csv": "/content/drive/MyDrive/BUSI_paper_reproduction/csv/model_manifest.csv",
+  "model_manifest_json": "/content/drive/MyDrive/BUSI_paper_reproduction/model_manifest.json",
+  "model_errors_csv": "/content/drive/MyDrive/BUSI_paper_reproduction/csv/model_serialization_errors.csv",
+  "environment_metadata": "/content/drive/MyDrive/BUSI_paper_reproduction/environment_metadata.json",
+  "run_metadata": "/content/drive/MyDrive/BUSI_paper_reproduction/run_metadata.json"
+}

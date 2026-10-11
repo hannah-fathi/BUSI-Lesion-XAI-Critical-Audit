@@ -1,0 +1,46 @@
+{
+  "created_utc": "2026-10-11T15:41:28.396120+00:00",
+  "dataset_directory": "/content/drive/MyDrive/Dataset_BUSI_with_GT",
+  "image_extensions": [
+    ".bmp",
+    ".jpeg",
+    ".jpg",
+    ".png",
+    ".tif",
+    ".tiff"
+  ],
+  "class_counts": {
+    "benign": {
+      "original_images": 437,
+      "recognized_mask_files": 454,
+      "original_plus_mask_files": 891,
+      "commonly_reported_original_image_count": 437,
+      "paper_reported_class_count": 891,
+      "paper_selected_lesion_count": 438
+    },
+    "malignant": {
+      "original_images": 210,
+      "recognized_mask_files": 211,
+      "original_plus_mask_files": 421,
+      "commonly_reported_original_image_count": 210,
+      "paper_reported_class_count": 421,
+      "paper_selected_lesion_count": 211
+    },
+    "normal": {
+      "original_images": 133,
+      "recognized_mask_files": 133,
+      "original_plus_mask_files": 266,
+      "commonly_reported_original_image_count": 133,
+      "paper_reported_class_count": 266,
+      "paper_selected_lesion_count": null
+    }
+  },
+  "total_original_images": 780,
+  "total_recognized_mask_files": 798,
+  "total_original_plus_mask_files": 1578,
+  "total_images_without_masks": 0,
+  "total_images_with_multiple_masks": 17,
+  "total_orphan_masks": 0,
+  "total_ambiguous_mask_matches": 0,
+  "interpretation": "Counts are recorded without modifying the dataset. Paper-reported counts and local original-image counts are kept separate. A match between paper-reported counts and original-plus-mask file totals is a diagnostic observation, not proof that masks were incorrectly included in training."
+}

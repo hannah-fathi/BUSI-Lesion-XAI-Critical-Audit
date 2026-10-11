@@ -1,0 +1,181 @@
+{
+  "audit_timestamp_utc": "2026-10-11T16:02:57.296065+00:00",
+  "paper": {
+    "title": "Breast Lesion Detection Using Weakly Dependent Customized Features and Machine Learning Models with XAI",
+    "doi": "10.3390/jimaging11050135",
+    "journal": "Journal of Imaging",
+    "year": 2025,
+    "reference_metrics_source": "Table 3 values supplied for this audit"
+  },
+  "environment": {
+    "python_version": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+    "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+    "scikit_learn_version": "1.6.1",
+    "numpy_version": "2.1.3",
+    "pandas_version": "2.2.3",
+    "seed": 42
+  },
+  "output_paths": {
+    "output_directory": "/content/drive/MyDrive/BUSI_paper_reproduction",
+    "csv_directory": "/content/drive/MyDrive/BUSI_paper_reproduction/csv",
+    "figure_directory": "/content/drive/MyDrive/BUSI_paper_reproduction/figures",
+    "model_directory": "/content/drive/MyDrive/BUSI_paper_reproduction/models"
+  },
+  "dataset_audit": {
+    "independent_feature_rows": 647,
+    "author_CH_rows": 647,
+    "author_C_rows": 647,
+    "author_csv_gate_passed": false,
+    "independent_feature_class_counts": {
+      "1": 437,
+      "0": 210
+    },
+    "feature_extraction_issue_rows": 0,
+    "pairing_manifest_rows": 780
+  },
+  "author_csv_gate": {
+    "gate_inputs_present": {
+      "AUTHOR_CSV_REFERENCE_EXPERIMENTS_ALLOWED": true,
+      "AUTHOR_CSV_REFERENCE_EXPERIMENTS_READY": true,
+      "AUTHOR_CSV_CROSS_TABLE_BLOCKER": true,
+      "AUTHOR_CSV_BLOCK_REASONS": true
+    },
+    "gate_inputs_complete": true,
+    "reference_experiments_allowed": false,
+    "reference_experiments_ready": false,
+    "cross_table_blocker": true,
+    "block_reasons": [
+      "The two author tables contain identical multisets of eight-dimensional feature vectors. They cannot currently be treated as independent feature representations.",
+      "For every matched feature-vector occurrence, the mapped class label in authors_CH is opposite to the label in authors_C. Do not flip labels automatically; verify the original data definitions and sample correspondence.",
+      "The numerical rows in authors_C do not behave like normalized histogram ratios: fewer than the required proportion of valid rows sum to one within tolerance 0.001. Inspect the paper's definition and the source CSV before interpreting C1-C8 as normalized density ratios."
+    ],
+    "author_csv_reference_gate_passed": false,
+    "interpretation": "The gate did not explicitly pass. Author-CSV-based results remain unapproved for direct numerical comparison with the paper."
+  },
+  "experiment_summary": {
+    "available_experiments_in_results": [
+      "own_CH_raw",
+      "own_C_ratio",
+      "own_CV_extended"
+    ],
+    "experiments_audited": 5,
+    "experiments_with_results": 3,
+    "experiments_with_all_expected_models_in_results": 3,
+    "experiments_with_all_model_files_present": 3,
+    "experiments_with_all_existing_hashes_verified": 3
+  },
+  "model_manifest": {
+    "manifest_source": "/content/drive/MyDrive/BUSI_paper_reproduction/csv/model_manifest.csv",
+    "manifest_format": "csv",
+    "manifest_rows_loaded": 12,
+    "experiment_column_found": "experiment",
+    "model_column_found": "model",
+    "artifact_path_column_found": "artifact_path",
+    "hash_column_found": "artifact_sha256",
+    "integrity_column_found": "artifact_integrity_verified",
+    "roundtrip_column_found": "roundtrip_verified",
+    "roundtrip_status_column_found": "roundtrip_status",
+    "interpretation": "Artifact presence, checksum verification, and serialization round-trip verification are reported as separate checks."
+  },
+  "model_artifact_summary": {
+    "model_artifact_audit_rows": 20,
+    "files_present": 12,
+    "checksums_verified": 12,
+    "checksums_failed": 0,
+    "roundtrips_verified_in_manifest": 12,
+    "roundtrips_failed_in_manifest": 0
+  },
+  "metrics_and_importance": {
+    "metrics_rows": 12,
+    "importance_rows": 116,
+    "paper_reference_rows": 8,
+    "paper_vs_notebook_comparison_rows": 8
+  },
+  "feature_identity_audit": {
+    "identity_check_available": true,
+    "identity_check_passed": true,
+    "feature_source": "own_df",
+    "n_rows_total": 647,
+    "n_valid_rows": 647,
+    "n_invalid_rows": 0,
+    "max_abs_CH_sum_minus_mask_area": 0.0,
+    "max_abs_C_minus_CH_over_area": 0.0,
+    "min_sum_C": 0.9999999999999999,
+    "max_sum_C": 1.0000000000000002,
+    "all_CH_bins_sum_to_mask_area": true,
+    "all_C_rows_match_CH_over_area": true,
+    "all_C_rows_sum_to_one": true,
+    "all_features_nonnegative": true,
+    "identity_summary_from_previous_cell": {
+      "feature_source": "own_df",
+      "n_rows_total": 647,
+      "n_rows_numeric_valid": 647,
+      "n_rows_with_invalid_numeric_values": 0,
+      "n_rows_eligible_for_algebraic_checks": 647,
+      "n_rows_passing_all_checks": 647,
+      "n_rows_failing_or_not_evaluated": 0,
+      "n_CH_features": 8,
+      "n_C_features": 8,
+      "identity_tolerance_atol": 1e-08,
+      "identity_tolerance_rtol": 0.0,
+      "max_abs_C_minus_CH_over_area": 0.0,
+      "mean_abs_C_minus_CH_over_area": 0.0,
+      "min_sum_C": 0.9999999999999999,
+      "max_sum_C": 1.0000000000000002,
+      "max_abs_sum_CH_minus_mask_area": 0.0,
+      "all_evaluable_C_match_CH_over_area": true,
+      "all_evaluable_CH_sums_match_mask_area": true,
+      "all_evaluable_C_rows_sum_to_1": true,
+      "n_identity_failures": 0,
+      "n_histogram_area_failures": 0,
+      "n_ratio_sum_failures": 0,
+      "n_ratio_range_failures": 0,
+      "n_noninteger_histogram_rows": 0,
+      "n_noninteger_mask_area_rows": 0,
+      "all_evaluable_rows_pass_all_checks": true
+    },
+    "interpretation": "All evaluated algebraic checks passed for the independent feature table. This does not prove numerical correspondence with the authors' CSV files or exact reproduction of the paper."
+  },
+  "xai_audit": {
+    "experiment_rows": 5,
+    "total_related_artifact_files": 132,
+    "shared_run_level_artifacts": {
+      "permutation_summary": {
+        "path": "/content/drive/MyDrive/BUSI_paper_reproduction/csv/permutation_importance_holdout.csv",
+        "exists": true,
+        "size_bytes": 18103
+      },
+      "permutation_repeats": {
+        "path": "/content/drive/MyDrive/BUSI_paper_reproduction/csv/permutation_importance_repeats.csv",
+        "exists": true,
+        "size_bytes": 188991
+      },
+      "mcnemar_results": {
+        "path": "/content/drive/MyDrive/BUSI_paper_reproduction/csv/mcnemar_paired_comparisons.csv",
+        "exists": true,
+        "size_bytes": 6749
+      },
+      "mcnemar_pairing_audit": {
+        "path": "/content/drive/MyDrive/BUSI_paper_reproduction/csv/mcnemar_pairing_audit.csv",
+        "exists": true,
+        "size_bytes": 2726
+      }
+    },
+    "shared_artifact_audit_json": "/content/drive/MyDrive/BUSI_paper_reproduction/csv/shared_statistical_artifact_audit_cell20.json"
+  },
+  "methodological_status": {
+    "author_csv_reference_gate_passed": false,
+    "independent_feature_identities_passed": true,
+    "exact_paper_reproduction_verified": false,
+    "patient_level_independence_verified": false,
+    "clinical_validity_established": false
+  },
+  "limitations": [
+    "Exact reproduction of the published results has not been established.",
+    "The independent feature-table identities do not prove correspondence with the authors' feature tables.",
+    "Any paper-versus-notebook metric comparison is descriptive unless sample provenance, feature definitions, preprocessing, data splits, and model configurations are demonstrably equivalent.",
+    "A sample-level stratified split does not establish patient-level independence.",
+    "Ground-truth lesion masks are used for the independent feature pipeline; this is not end-to-end detection from raw images.",
+    "The paper's published metrics are preserved as reported reference values and are not used as automatic acceptance thresholds."
+  ]
+}
