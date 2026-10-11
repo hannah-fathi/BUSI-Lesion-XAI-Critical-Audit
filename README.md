@@ -304,7 +304,8 @@ The run records the environment, audits the data, extracts the features, applies
 ├── paper/                  # reference PDF (CC BY 4.0)
 ├── notebooks/
 │   └── Breast_Lesion_Detection.ipynb
-├── BUSI_Report.pdf
+├── report/
+|   └── BUSI_Report.pdf
 ├── results/
 │   ├── figures/            # SHAP, LIME, permutation, rank-agreement, QC plots
 │   ├── tables/             # metrics, McNemar, importances (CSV)
