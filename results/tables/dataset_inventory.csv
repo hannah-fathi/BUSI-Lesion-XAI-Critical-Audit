@@ -1,0 +1,4 @@
+class_folder,label_code,folder_exists,image_count,reference_image_count,count_difference,paper_reported_class_count,paper_reported_minus_original_count,paper_selected_lesion_count,selected_count_difference,mask_file_count,original_plus_mask_file_count,paper_count_matches_original_plus_masks,matched_mask_file_count,images_with_mask,images_without_mask,images_with_multiple_masks,orphan_mask_count,ambiguous_mask_count,mask_coverage_pct,mask_policy
+benign,B,True,437,437,0,891,454,438.0,-1.0,454,891,True,454,437,0,16,0,0,100.0,A non-empty lesion mask is required for the planned mask-derived feature extraction.
+malignant,M,True,210,210,0,421,211,211.0,-1.0,211,421,True,211,210,0,1,0,0,100.0,A non-empty lesion mask is required for the planned mask-derived feature extraction.
+normal,N,True,133,133,0,266,133,,,133,266,True,133,133,0,0,0,0,100.0,Normal images are excluded from the primary binary task; mask files are audited but are not used in lesion classification.

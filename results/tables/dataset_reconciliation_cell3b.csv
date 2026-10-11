@@ -1,0 +1,4 @@
+class_folder,local_unique_original_images,common_local_release_reference_images,local_minus_release_reference,local_unique_image_count_status,local_mask_files,local_original_plus_mask_file_count,paper_reported_class_count,local_original_plus_mask_equals_paper_count,paper_selected_binary_sample_count,local_images_minus_paper_selected_count,paper_selected_count_status,images_with_mask,images_without_mask,images_with_multiple_masks,orphan_mask_count,ambiguous_mask_count,mask_coverage_pct
+benign,437,437,0,matches_common_local_release_count,454,891,891,True,438.0,-1.0,unresolved_selection_count_difference,437,0,16,0,0,100.0
+malignant,210,210,0,matches_common_local_release_count,211,421,421,True,211.0,-1.0,unresolved_selection_count_difference,210,0,1,0,0,100.0
+normal,133,133,0,matches_common_local_release_count,133,266,266,True,,,not_applicable_to_binary_task,133,0,0,0,0,100.0

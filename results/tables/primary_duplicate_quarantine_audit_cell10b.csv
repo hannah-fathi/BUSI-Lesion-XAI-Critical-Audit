@@ -1,0 +1,4 @@
+experiment,n_before,n_conflicting_duplicate_rows_removed,n_after,n_features,n_malignant_label_0,n_benign_label_1,removed_sample_ids
+own_CH_raw,647,2,645,8,209,436,"[""benign/benign (433).png"", ""malignant/malignant (145).png""]"
+own_C_ratio,647,2,645,8,209,436,"[""benign/benign (433).png"", ""malignant/malignant (145).png""]"
+own_CV_extended,647,2,645,13,209,436,"[""benign/benign (433).png"", ""malignant/malignant (145).png""]"

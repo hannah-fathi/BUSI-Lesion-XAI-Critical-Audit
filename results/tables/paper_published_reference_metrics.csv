@@ -1,0 +1,9 @@
+paper_feature_family,model,paper_cv_accuracy,paper_f1_reported,paper_roc_auc_reported,reference_source,comparison_caveat
+CH,XGB,0.851,0.739,0.728,"Moldovanu et al., Journal of Imaging (2025), 11, 135, Table 3","Reported paper values are reference metrics. The notebook's split, feature provenance, preprocessing, and CV protocol may differ."
+CH,RF,0.969,0.95,0.965,"Moldovanu et al., Journal of Imaging (2025), 11, 135, Table 3","Reported paper values are reference metrics. The notebook's split, feature provenance, preprocessing, and CV protocol may differ."
+CH,GBC,0.919,0.863,0.872,"Moldovanu et al., Journal of Imaging (2025), 11, 135, Table 3","Reported paper values are reference metrics. The notebook's split, feature provenance, preprocessing, and CV protocol may differ."
+CH,L1_Logistic,0.776,0.834,0.798,"Moldovanu et al., Journal of Imaging (2025), 11, 135, Table 3","Reported paper values are reference metrics. The notebook's split, feature provenance, preprocessing, and CV protocol may differ."
+C,XGB,0.882,0.822,0.816,"Moldovanu et al., Journal of Imaging (2025), 11, 135, Table 3","Reported paper values are reference metrics. The notebook's split, feature provenance, preprocessing, and CV protocol may differ."
+C,RF,0.969,0.957,0.967,"Moldovanu et al., Journal of Imaging (2025), 11, 135, Table 3","Reported paper values are reference metrics. The notebook's split, feature provenance, preprocessing, and CV protocol may differ."
+C,GBC,0.938,0.901,0.916,"Moldovanu et al., Journal of Imaging (2025), 11, 135, Table 3","Reported paper values are reference metrics. The notebook's split, feature provenance, preprocessing, and CV protocol may differ."
+C,L1_Logistic,0.761,0.818,0.812,"Moldovanu et al., Journal of Imaging (2025), 11, 135, Table 3","Reported paper values are reference metrics. The notebook's split, feature provenance, preprocessing, and CV protocol may differ."

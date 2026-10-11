@@ -1,0 +1,9 @@
+experiment,feature_family,model,result_available,author_csv_gate_passed,paper_cv_accuracy,notebook_cv_accuracy,accuracy_difference_descriptive,comparison_status
+authors_CH,CH,XGB,False,False,0.851,,,Notebook result unavailable
+authors_CH,CH,RF,False,False,0.969,,,Notebook result unavailable
+authors_CH,CH,GBC,False,False,0.919,,,Notebook result unavailable
+authors_CH,CH,L1_Logistic,False,False,0.776,,,Notebook result unavailable
+authors_C,C,XGB,False,False,0.882,,,Notebook result unavailable
+authors_C,C,RF,False,False,0.969,,,Notebook result unavailable
+authors_C,C,GBC,False,False,0.938,,,Notebook result unavailable
+authors_C,C,L1_Logistic,False,False,0.761,,,Notebook result unavailable

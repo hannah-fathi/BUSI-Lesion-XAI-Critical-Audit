@@ -1,0 +1,5 @@
+dataset,label_column,raw_label,mapped_label,count
+authors_CH,clasa,M,0,437
+authors_CH,clasa,B,1,210
+authors_C,clasa,B,1,437
+authors_C,clasa,M,0,210

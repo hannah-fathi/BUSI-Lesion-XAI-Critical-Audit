@@ -1,0 +1,6 @@
+experiment,shap_rows_in_memory,rank_agreement_rows_in_memory,mcnemar_rows_in_memory,pairing_audit_rows_in_memory,shap_csv_file_count,shap_plot_file_count,lime_png_count,lime_html_count,permutation_summary_file_count,mcnemar_file_count,shared_permutation_summary_exists,shared_permutation_repeats_exists,shared_mcnemar_results_exists,shared_mcnemar_pairing_audit_exists,shared_artifact_count_run_level,shared_artifact_status_json,related_xai_and_statistical_artifact_count
+authors_CH,0,0,0,0,0,0,0,0,0,0,True,True,True,True,4,/content/drive/MyDrive/BUSI_paper_reproduction/csv/shared_statistical_artifact_audit_cell20.json,0
+authors_C,0,0,0,0,0,0,0,0,0,0,True,True,True,True,4,/content/drive/MyDrive/BUSI_paper_reproduction/csv/shared_statistical_artifact_audit_cell20.json,0
+own_CH_raw,24,3,3,7,3,18,6,6,0,0,True,True,True,True,4,/content/drive/MyDrive/BUSI_paper_reproduction/csv/shared_statistical_artifact_audit_cell20.json,44
+own_C_ratio,24,3,3,11,3,18,6,6,0,0,True,True,True,True,4,/content/drive/MyDrive/BUSI_paper_reproduction/csv/shared_statistical_artifact_audit_cell20.json,44
+own_CV_extended,39,3,3,7,3,18,6,6,0,0,True,True,True,True,4,/content/drive/MyDrive/BUSI_paper_reproduction/csv/shared_statistical_artifact_audit_cell20.json,44
