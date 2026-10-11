@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it and the original paper by Moldovanu et al. (2025)."
+title: "Independent Re-implementation, Feature Extension and Critical Audit of Weakly Dependent BUSI Features with XAI"
+type: software
+authors:
+  - family-names: "Fathi"
+    given-names: "Hannah"
+date-released: "2026-10-11"
+license: MIT
+repository-code: "https://github.com/<your-username>/BUSI-Independent-XAI-Study"
+references:
+  - type: article
+    authors:
+      - family-names: "Moldovanu"
+        given-names: "Simona"
+      - family-names: "Munteanu"
+        given-names: "Dan"
+      - family-names: "Biswas"
+        given-names: "Keka C."
+      - family-names: "Moraru"
+        given-names: "Luminita"
+    title: "Breast Lesion Detection Using Weakly Dependent Customized Features and Machine Learning Models with Explainable Artificial Intelligence"
+    journal: "Journal of Imaging"
+    year: 2025
+    volume: 11
+    issue: 5
+    start: 135
+    doi: "10.3390/jimaging11050135"
