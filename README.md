@@ -375,7 +375,7 @@ Code: MIT, see [LICENSE](LICENSE). The reference paper is open access under CC B
 
 ## Author
 
-**Hannah Fathi**: Medical AI · Computer Vision · Explainable AI · Reproducible research
+**Hannah Fathi** : Computer Vision · Medical AI · Representation Learning · Explainable AI · Foundation Models
 
 # Research Timeline
 
